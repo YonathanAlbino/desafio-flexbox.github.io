@@ -1,0 +1,103 @@
+header {
+    background-color: black;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+header nav {
+    background-color: #494CA2;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header nav div {
+    height: 30px;
+    background-color: #E26241;
+}
+
+header nav div {
+    width: 24%;
+    margin: 0px 30px 0px 30px;
+}
+
+header nav div:nth-child(2) {
+    width: 55%;
+}
+
+header section {
+    background-color: #FFA500;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header section div {
+    width: 97%;
+    height: 30px;
+    background-color: #FFFF00;
+}
+
+main {
+    height: 40vh;
+    background-color: black;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section {
+    background-color: #211717;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+    width: 96%;
+}
+
+main section div {
+    width: 95%;
+    background-color: #FFD369;
+    margin-bottom: 5px;
+    height: 50px;
+    border: 1px solid;
+}
+
+main section div:last-child {
+    background-color: #82000f;
+}
+
+footer {
+    background-color: #000;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+footer section {
+    background-color: #AC8DAF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    width: 96%;
+   
+}
+
+
+footer  section div {
+    background-color: #484C7F;
+    width: 95%;
+    height: 50px;
+    margin: 10px 0;
+}
